@@ -1,0 +1,11 @@
+services:
+  # Backend Flask API
+  - type: web
+    name: foodnutra-backend
+    env: python
+    region: oregon
+    buildCommand: pip install -r Backend/requirements.txt
+    startCommand: cd Backend && python3 Flask_API_With_CORS.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
