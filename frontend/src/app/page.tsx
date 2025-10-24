@@ -82,7 +82,7 @@ export default function Home() {
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg flex items-center gap-2"
               >
                 <Sparkles className="h-5 w-5" />
-                Get Started - It's Free!
+                Get Started - It&apos;s Free!
               </Button>
             </div>
 
