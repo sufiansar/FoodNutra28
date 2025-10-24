@@ -1,5 +1,7 @@
 // API Configuration
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+// Prefer env var; if missing (e.g., on Vercel without env configured), fall back to production API
+const API_BASE_URL =
+  process.env.NEXT_PUBLIC_API_URL || "https://foodnutra28.onrender.com";
 
 // Types
 export interface BasicProfile {
